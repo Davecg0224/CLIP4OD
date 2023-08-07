@@ -1,0 +1,28 @@
+{
+    "objList": 
+    {
+        "0": "elevator",   
+        "1": "door",
+        "2": "sign", 
+        "3": "elevator button",
+        "4": "human",
+        "5": "text", 
+        "6": "map",
+        "7": "indicator",
+        "8": "fire extinguisher",
+        "9": "decorations",
+        "10": "TV",
+        "11": "elevator screen",
+        "12": "plant",
+        "13": "window",
+        "14": "doorplate",
+        "15": "table",
+        "16": "bottle",
+        "17": "computer",
+        "18": "chair",
+        "19": "bed",
+        "20": "socket",
+        "21": "bag",
+        "22": "keyboard"
+    }
+}

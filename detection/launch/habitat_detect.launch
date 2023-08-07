@@ -1,0 +1,20 @@
+<launch>
+    <!-- scene configs -->
+    <!-- <arg name="simulate" default="true"/> -->
+
+    <!-- robot configs -->
+    <!-- <rosparam command="load" file="$(find detection)/src/detect.json" />
+    <rosparam command="load" file="$(find habitat_ros)/config/fake_camera.yaml" /> -->
+
+    <!-- detection -->
+    <node pkg="detection" type="habitat_detect" name="detection">
+        <!-- <group if="$(arg simulate)"> -->
+            <!-- <remap from="depth_registered/image_rect" to="/depth"/> -->
+            <!-- <remap from="depth_registered/points" to="camera/depth_registered/points"/> -->
+            <!-- <remap from="rgb/image_rect_color" to="/camera"/> -->
+            <!-- <remap from="rgb/camera_info" to="/camera_info"/> -->
+            <remap from="/zed2/zed_node/rgb/image_rect_color/compressed" to="/camera/compressed"/>
+        <!-- </group> -->
+    </node>
+    
+</launch>
